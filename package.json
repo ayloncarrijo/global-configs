@@ -10,7 +10,8 @@
   },
   "scripts": {
     "eslint": "pnpm --filter \"@ayloncarrijo/eslint-config\"",
-    "prettier": "pnpm --filter \"@ayloncarrijo/prettier-config\""
+    "prettier": "pnpm --filter \"@ayloncarrijo/prettier-config\"",
+    "typescript": "pnpm --filter \"@ayloncarrijo/typescript-config\""
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
