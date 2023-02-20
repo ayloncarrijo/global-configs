@@ -2,13 +2,15 @@
   "version": "1.0.0",
   "name": "@ayloncarrijo/global-configs",
   "private": true,
+  "prettier": "./packages/prettier-config",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "scripts": {
-    "eslint": "pnpm --filter \"@ayloncarrijo/eslint-config\""
+    "eslint": "pnpm --filter \"@ayloncarrijo/eslint-config\"",
+    "prettier": "pnpm --filter \"@ayloncarrijo/prettier-config\""
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",

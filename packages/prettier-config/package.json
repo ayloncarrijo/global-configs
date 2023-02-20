@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "@ayloncarrijo/prettier-config",
+  "license": "MIT",
+  "main": "./.prettierrc.js",
+  "files": [
+    ".prettierrc.js"
+  ]
+}
