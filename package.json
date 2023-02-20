@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "name": "@ayloncarrijo/global-configs",
+  "private": true,
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
