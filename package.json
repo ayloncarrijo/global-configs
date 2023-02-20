@@ -7,7 +7,12 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "scripts": {
+    "eslint": "pnpm --filter \"@ayloncarrijo/eslint-config\""
+  },
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.34.0",
+    "typescript": "^4.9.5"
   }
 }
