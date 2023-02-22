@@ -43,6 +43,14 @@ const overrides = {
       "plugin:react-hooks/recommended",
     ],
     rules: {
+      "jsx-a11y/role-has-required-aria-props": "warn",
+      "jsx-a11y/role-supports-aria-props": "warn",
+      "jsx-a11y/aria-props": "warn",
+      "jsx-a11y/aria-proptypes": "warn",
+      "jsx-a11y/aria-unsupported-elements": "warn",
+      "jsx-a11y/alt-text": "warn",
+      "react/no-unknown-property": "off",
+      "react/prop-types": "off",
       "react/button-has-type": "error",
       "react/self-closing-comp": "error",
       "react/jsx-no-useless-fragment": ["error", { allowExpressions: true }],
@@ -68,6 +76,7 @@ module.exports = {
   plugins: ["import"],
   extends: ["eslint:recommended", "standard"],
   rules: {
+    "import/no-anonymous-default-export": "error",
     "import/no-extraneous-dependencies": "error",
     "import/no-cycle": "error",
     "prefer-template": "error",
