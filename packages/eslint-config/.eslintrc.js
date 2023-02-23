@@ -51,6 +51,7 @@ const overrides = {
       "jsx-a11y/alt-text": "warn",
       "react/no-unknown-property": "off",
       "react/prop-types": "off",
+      "react/jsx-no-target-blank": "off",
       "react/button-has-type": "error",
       "react/self-closing-comp": "error",
       "react/jsx-no-useless-fragment": ["error", { allowExpressions: true }],
