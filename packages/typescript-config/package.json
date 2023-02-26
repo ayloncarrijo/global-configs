@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "@ayloncarrijo/typescript-config",
   "license": "MIT",
   "main": "./tsconfig.json",
@@ -7,6 +7,6 @@
     "tsconfig.json"
   ],
   "peerDependencies": {
-    "typescript": "*"
+    "typescript": "^4.0.0"
   }
 }

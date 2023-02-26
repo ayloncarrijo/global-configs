@@ -45,6 +45,12 @@ importers:
       eslint: 8.34.0
       typescript: 4.9.5
 
+  packages/prettier-config:
+    specifiers: {}
+
+  packages/typescript-config:
+    specifiers: {}
+
 packages:
 
   /@babel/code-frame/7.18.6:
