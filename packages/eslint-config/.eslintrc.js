@@ -23,7 +23,6 @@ module.exports = {
       rules: {
         "@typescript-eslint/triple-slash-reference": "off",
         "@typescript-eslint/explicit-member-accessibility": "error",
-        "@typescript-eslint/consistent-type-definitions": ["error", "type"],
         "@typescript-eslint/array-type": ["error", { default: "generic" }],
         "@typescript-eslint/no-empty-function": [
           "error",
